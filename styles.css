@@ -92,12 +92,15 @@ footer {
   margin: 10px;
   background-color: white;
 }
-@media  (min-width:481px ) and (max-width :1200px){
+
+
+
+@media (min-width: 481px) and (max-width: 1200px) {
   .drum{
-    width: 350px;
+    width: 40%;
     height: 350px;
-    display: block;
-    margin-left: auto;
+    display: inline-block;
+    margin-left: 25px;
     margin-right: auto;
     margin-bottom: 25px;
    
@@ -108,10 +111,4 @@ footer {
     font-size: 3rem;
 
   }
-  #title{
-    font-size: x-large;
-    margin-top: 30px;
-    font-weight: 500;
-    font-family: sans-serif;
-  }
-} 
+}
